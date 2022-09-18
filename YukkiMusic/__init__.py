@@ -9,7 +9,6 @@
 
 from YukkiMusic.core.bot import YukkiBot
 from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
 from YukkiMusic.core.userbot import Userbot
 from YukkiMusic.misc import dbb, heroku, sudo
 
@@ -19,7 +18,7 @@ from .logging import LOGGER
 dirr()
 
 # Check Git Updates
-git()
+
 
 # Initialize Memory DB
 dbb()
